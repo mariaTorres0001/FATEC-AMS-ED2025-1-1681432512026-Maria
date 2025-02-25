@@ -28,7 +28,9 @@ int main()
 
         printf("Valor com o desconto: R$%.2f\n", vlrprodcdesc);
 
-        printf("Desconto de: %.2f\n", porcdesc);
+        printf("Desconto de: %.0f", porcdesc);
+        
+        printf("%\n");
     }
     else if (rsp == 'n' || rsp == 'N')
     {
