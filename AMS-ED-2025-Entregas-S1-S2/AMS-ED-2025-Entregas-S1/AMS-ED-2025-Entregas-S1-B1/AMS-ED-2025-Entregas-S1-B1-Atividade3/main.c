@@ -179,11 +179,11 @@ int main()
             scanf("%d", &n_ped);
             
             printf("Insira o nome do cliente: ");
-            scanf("%s[^\n]", nm_cli);
+            scanf("%[^\n]", nm_cli);
             getchar();
             
             printf("Insira o nome do prato: ");
-            scanf("%s[^\n]", desc_pt);
+            scanf("%[^\n]", desc_pt);
             getchar();
             
             printf("Insira a quantidade: ");
@@ -204,7 +204,7 @@ int main()
             printf("Digite o número do pedido: ");
             scanf("%d", &n_ped);
             
-            printf("Insira o novo status: ");
+            printf("Insira o novo status (1 - Pendente, 2 - Entregue, 3 - Cancelado): ");
             scanf("%s", status);
             
             alterarStatus(lista, n_ped, status);
