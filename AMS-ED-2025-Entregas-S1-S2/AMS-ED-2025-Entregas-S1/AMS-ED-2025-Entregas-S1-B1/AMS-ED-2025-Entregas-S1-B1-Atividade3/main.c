@@ -179,7 +179,7 @@ int main()
             scanf("%d", &n_ped);
             
             printf("Insira o nome do cliente: ");
-            scanf("%[^\n]", nm_cli);
+            scanf("%s[^\n]", nm_cli);
             getchar();
             
             printf("Insira o nome do prato: ");
